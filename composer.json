@@ -1,5 +1,5 @@
 {
-  "name": "openresourcemanager/php-passport-photo-client",
+  "name": "open-resource-manager/php-passport-photo-client",
   "description": "Library that assists in accessing user photos from Passport",
   "keywords": [
     "passport",
