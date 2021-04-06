@@ -135,7 +135,7 @@ class PhotoClient
         // Set the default download directory
         if (empty($downloadDir)) $downloadDir = sys_get_temp_dir();
         // Build the file path
-        $filePath = realpath(implode('/', [$downloadDir, $identString . '.jpg']));
+        $filePath = implode(DIRECTORY_SEPARATOR, [rtrim(rtrim($downloadDir, '/'), '\\'), $identString . '.jpg']);
         // Try the HTTP request
         try {
             $response = $httpClient->get($identString, [
