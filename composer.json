@@ -1,0 +1,38 @@
+{
+  "name": "openresourcemanager/php-passport-photo-client",
+  "description": "Library that assists in accessing user photos from Passport",
+  "keywords": [
+    "passport",
+    "orm",
+    "photo",
+    "picture"
+  ],
+  "type": "library",
+  "homepage": "https://github.com/OpenResourceManager/php-passport-photo-client",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alex Markessinis",
+      "email": "markea125@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/OpenResourceManager/php-passport-photo-client/issues",
+    "source": "https://github.com/OpenResourceManager/php-passport-photo-client"
+  },
+  "require": {
+    "php": ">=7.3.0",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^7.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "OpenResourceManager\\PassportPhoto\\": "src/"
+    }
+  },
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
